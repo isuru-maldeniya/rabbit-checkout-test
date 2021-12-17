@@ -22,7 +22,7 @@ public class TestController {
     @PostMapping(value = "/")
     public String sendMessage(@RequestBody List<GenericNotification> notification){
         List<User>  usersList = new LinkedList<>();
-        usersList.add(new User("userId","orgId"));
+//        usersList.add(new User("userId","orgId"));
 
         List<GenericNotification> collect = notification.stream().map(noti ->
                         new GenericNotification(
@@ -34,6 +34,7 @@ public class TestController {
                                 null,
                                 null)).
                 collect(Collectors.toList());
+
 
         template.convertAndSend("notification-exchange","send-notification",notification);
         return "message sent";

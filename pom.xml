@@ -23,8 +23,8 @@
 <!--        </dependency>-->
         <dependency>
             <groupId>com.xventure.xapi.libs</groupId>
-            <artifactId>xapi-email-lib</artifactId>
-            <version>0.0.2-SNAPSHOT</version>
+            <artifactId>xapi-notification-lib</artifactId>
+            <version>0.0.3-SNAPSHOT</version>
         </dependency>
 
         <!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
@@ -55,6 +55,10 @@
             <groupId>org.springframework.amqp</groupId>
             <artifactId>spring-rabbit-test</artifactId>
             <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-security</artifactId>
         </dependency>
     </dependencies>
 
