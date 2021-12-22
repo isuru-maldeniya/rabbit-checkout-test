@@ -1,8 +1,8 @@
 package com.example.rabbitcheckouttest.controllers;
 
-import com.xventure.xapi.libs.email.model.ChannelSelector;
-import com.xventure.xapi.libs.email.model.GenericNotification;
-import com.xventure.xapi.libs.email.model.User;
+//import com.xventure.xapi.libs.email.model.ChannelSelector;
+//import com.xventure.xapi.libs.email.model.GenericNotification;
+//import com.xventure.xapi.libs.email.model.User;
 
 import java.util.*;
 
